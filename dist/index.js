@@ -6,7 +6,7 @@ class Test {
     constructor(serverless) {
         this.serverless = serverless;
         this.hooks = {};
-        this.hooks['before:deploy:resources'] = this.excludeDevelopmentDependencies.bind(this);
+        this.excludeDevelopmentDependencies();
     }
     excludeDevelopmentDependencies() {
         const output = child_process_1.execSync('npm list --dev --parseable');

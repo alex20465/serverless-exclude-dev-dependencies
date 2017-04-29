@@ -6,7 +6,7 @@ class Test {
   public hooks: any = {};
 
   constructor(private serverless: any) {
-    this.hooks['before:deploy:resources'] = this.excludeDevelopmentDependencies.bind(this);
+    this.excludeDevelopmentDependencies();
   }
 
   excludeDevelopmentDependencies() {

@@ -1,6 +1,6 @@
 {
   "name": "serverless-exclude-dev-dependencies",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Plugin to automatically exclude NodeJS development dependencies",
   "main": "dist/index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "author": "Alexandros Fotiadis <fotiadis90@gmail.com>",
   "license": "ISC",
+  "directories": {
+    "dist": "dist"
+  },
   "devDependencies": {
     "@types/gulp": "^4.0.2",
     "@types/gulp-mocha": "0.0.30",
