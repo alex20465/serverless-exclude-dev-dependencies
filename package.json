@@ -1,6 +1,6 @@
 {
   "name": "serverless-exclude-dev-dependencies",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "Plugin to automatically exclude NodeJS development dependencies",
   "main": "dist/index.js",
   "scripts": {
